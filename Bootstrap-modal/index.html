@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<title>modal</title>
+</head>
+
+<body>
+	<div class="bg-body">
+		<p style="font-size: 1.5rem;">
+			Click the button below to launch a sample modal made without using Bootstrap.
+		</p>
+		<div id="launch">
+		  	<button class="btn" id="launch-button">
+				Launch Sample Modal
+			</button>
+		</div>
+	</div>
+
+	<div class="overlay">
+		<div class="flex">
+			<div class="modal">
+			  	<div class="modal-header">
+			  		<h3 class="">Hey there!!</h3>
+			      	<button class="close-button" id="close-icon"><i class="fas fa-times"></i></button>
+			    </div>
+			    <div class="modal-body">
+					This is a sample modal. It is a Bootstrap-like Modal but its made from scratch using only HTML, CSS, and jQuery.
+					<br>
+					<br>
+					Below is some text to enable scrolling.
+					<br><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+					
+			    </div>
+			    <div class="modal-footer">
+			      	<button class="close-button" id="close-button">Close</button>
+			      	<button class="btn" id="save-btn">Save changes</button>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
